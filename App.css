@@ -1,0 +1,67 @@
+.container{
+  background: #000;
+  border: 1vh double rgb(255, 187, 59);
+  height: 50vh;
+  width: 20vw;
+}
+
+.inputDisplay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18vw;
+  height: 8vh;
+}
+
+.disp{
+  text-align: right;
+  width: 18.6vw;
+  margin-left: 2vw;
+  height: 6vh;
+  color: white;
+  background: black;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: 2px double rgb(255, 255, 255);
+  border-radius: 0.5vw;
+}
+
+.keypad-top{
+  width: 20vw;
+  height: 4vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.keypad-top.button{
+  width: 19vw;
+}
+
+.keypad{
+  width: 50%;
+  border: 2vh solid black;
+}
+
+.main-keypad1{
+  margin-top: 5vh;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+
+button{
+  background: rgb(255, 187, 59);
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 5px;
+  height: 6vh;
+  cursor: pointer;
+  border: 2px double rgb(255, 255, 255);
+  border-radius: 0.5vw;
+}
+
+button:hover{
+  border: 2px double rgb(255, 0, 0);
+  border-radius: 1vw;
+}

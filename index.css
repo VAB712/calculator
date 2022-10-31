@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top right, #ff00fb 0%, #ffffff 100%);
+}
+
+html{
+  font-size: 62.5%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  font-size: 5rem;
+  color: rgb(255, 255, 255);
+  border: 10px double crimson;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  font-family: "Audiowide", sans-serif;
+}
